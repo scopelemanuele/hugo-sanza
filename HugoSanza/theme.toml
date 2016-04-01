@@ -1,0 +1,18 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "HugoSanza"
+license = "Apache 2.0"
+licenselink = ""
+description = "Beautifull single-page theme."
+min_version = 0.14
+
+[author]
+  name = "Scopel Emanuele <scopel.emanuele@silvergeko.it>"
+  homepage = "http://silvergeko.it"
+
+# If porting an existing theme
+[original]
+  name = "Sanza"
+  homepage = "http://moozthemes.com/sanza-free-one-page-bootstrap-theme/"
+  repo = "http://moozthemes.com/download/2"

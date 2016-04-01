@@ -1,0 +1,12 @@
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="slider-container">
+            <div class="intro-text">
+                <div class="intro-lead-in">{{ with .Site.Params.header.welcome }}{{ . }}{{ end }}</div>
+                <div class="intro-heading">{{ with .Site.Params.header.slogan }}{{ . }}{{ end }}</div>
+                <a href="#about" class="page-scroll btn btn-xl">{{ with .Site.Params.header.button }}{{ . }}{{ end }}</a>
+            </div>
+        </div>
+    </div>
+</header>

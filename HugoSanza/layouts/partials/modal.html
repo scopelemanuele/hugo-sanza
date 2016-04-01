@@ -1,0 +1,21 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ range .Site.Data.projects }}
+    <div class="modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+    	<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+    			<div class="modal-header">
+    				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    				<h4 class="modal-title" id="Modal-label-1">{{ .title }}</h4>
+    			</div>
+    			<div class="modal-body">
+    				<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
+    				<div class="modal-works"><span>{{ .category }}</span></div>
+    				<p>{{ .description | markdownify }}</p>
+    			</div>
+    			<div class="modal-footer">
+    				<button type="button" class="btn btn-default" data-dismiss="modal">{{ with $.Site.Params.portfolio.button }}{{.}}{{ end }}</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+{{ end }}

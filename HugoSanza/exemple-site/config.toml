@@ -1,0 +1,214 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "it-IT"
+title = "Studio Bertinetti"
+theme = "HugoSanza"
+
+
+[params]
+	name = "Your name"
+	description = "Your description"
+	copyright = "Silvergeko"
+	copylink = "http://silvergeko.it"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+	imagelogo = "/images/logo.png"
+	imagelogoalt = "Sanza Logo"
+
+#Header
+[params.header]
+	welcome = "Welcome To MOOZ Themes!"
+	slogan = "YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES"
+	button = "Tell Me More"
+
+
+[params.navigation]
+
+	[[params.navigation.menu]]
+	    name = "About"
+	    weight = -110
+	    identifier = "about"
+	    url = "#about"
+
+	[[params.navigation.menu]]
+	    name = "Services"
+	    weight = -100
+		identifier = "services"
+	    url = "#services"
+
+	[[params.navigation.menu]]
+	    name = "Portfolio"
+	    weight = -100
+		identifier = "portfolio"
+	    url = "#portfolio"
+
+	[[params.navigation.menu]]
+	    name = "Partner"
+	    weight = -100
+		identifier = "partner"
+	    url = "#partner"
+
+	[[params.navigation.menu]]
+	    name = "Team"
+	    weight = -100
+		identifier = "team"
+	    url = "#team"
+
+	[[params.navigation.menu]]
+	    name = "Contact"
+	    weight = -100
+		identifier = "contact"
+	    url = "#contact"
+
+[params.about]
+	description = "A creative agency based on Candy Land, ready to boost your business with some beautifull templates. MOOZ Agency is one of the best in town see more you will be amazed."
+
+	[[params.about.list]]
+    	icon = "fa-briefcase"
+        title = "Web Development"
+        description = "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
+
+	[[params.about.list]]
+        icon = "fa-photo"
+        title = "Visualisation"
+        description = "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe"
+
+	[[params.about.list]]
+        icon = "fa-camera-retro"
+        title = "Photography"
+    	description = "Accusamus et iusto odio dignissimos ducimus qui blanditiis"
+
+	[[params.about.list]]
+		icon = "fa-cube"
+		title = "UI/UX Design"
+		description = "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
+
+[params.service]
+	title = "WE ARE CREATIVE"
+	description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore"
+
+	[[params.service.list]]
+		title = "Responsive Bootstrap Template"
+		image = "/images/demo/portfolio-7.jpg"
+		alt = ""
+
+	[[params.service.list]]
+		title = "Developer Friendly Code"
+		image = "/images/demo/portfolio-8.jpg"
+		alt = ""
+
+	[[params.service.list]]
+		title = "Creative Freedom Experience"
+		image = "/images/demo/portfolio-8.jpg"
+		alt = ""
+
+	[[params.service.list]]
+		title = "MOOZThemes.com Do Things With Love"
+		image = "images/demo/portfolio-8.jpg"
+		alt = ""
+
+
+[params.portfolio]
+	title = "Protfolio"
+	description = "Our portfolio is the best way to show our work, you can see here a big range of our work. Check them all and you will find what you are looking for."
+	button = "Close"
+	viewmore = "View more"
+
+[params.counter]
+	awards = "Awards"
+	awardscount = "10"
+	clients = "Clients"
+	clientscount = "123"
+	team = "Team"
+	teamcount = "5"
+	project = "Project"
+	projectcount = "2"
+
+[params.partner]
+	title = "Our partners"
+	description = "Mida sit una namet, cons uectetur adipiscing adon elit."
+
+	[[params.partner.list]]
+		partner = "partner1"
+		image = "/images/demo/partners-1.png"
+
+	[[params.partner.list]]
+		partner = "partner2"
+		image = "/images/demo/partners-2.png"
+
+	[[params.partner.list]]
+		partner = "partner3"
+		image = "/images/demo/partners-3.png"
+
+	[[params.partner.list]]
+		partner = "partner4"
+		image = "/images/demo/partners-4.png"
+
+	[[params.partner.list]]
+		partner = "partner5"
+		image = "/images/demo/partners-5.png"
+
+	[[params.partner.list]]
+		partner = "partner6"
+		image = "/images/demo/partners-6.png"
+
+	[[params.partner.list]]
+		partner = "partner7"
+		image = "/images/demo/partners-7.png"
+
+	[[params.partner.list]]
+		partner = "partner8"
+		image = "/images/demo/partners-8.png"
+
+	[[params.partner.list]]
+		partner = "partner9"
+		image = "/images/demo/partners-9.png"
+
+[params.team]
+	title = "Team"
+	description = "A creative agency based on Candy Land, ready to boost your business with some beautifull templates. MOOZ Agency is one of the best in town see more you will be amazed."
+
+	[[params.team.list]]
+		name = "TOM BEKERS"
+		position = "CEO & Web Design"
+		description = "Mida sit una namet, cons uectetur adipiscing adon elit. Aliquam vitae barasa droma."
+		image = "/images/demo/author-2.jpg"
+
+	[[params.team.list]]
+		name = "John BEKERS"
+		position = "Marketing"
+		description = "Mida sit una namet, cons uectetur adipiscing adon elit. Aliquam vitae barasa droma."
+		image = "/images/demo/author-6.jpg"
+
+	[[params.team.list]]
+		name = "LINA GOSATA"
+		position = "Photography"
+		description = "Dolor sit don namet, cons uectetur beriscing adon elit. Aliquam vitae fringilla unda."
+		image = "/images/demo/author-4.jpg"
+
+[params.contact]
+	title = "Contact Us"
+	description = "If you have some Questions or need Help! <br><strong>Please Contact Us!</strong><br>We make Cool and Clean Design for your Business"
+	destination = "scopel.emanuele@silvergeko.it"
+	button = "Invia"
+
+	[params.contact.office]
+	title = "Our Business Office"
+	address = "3422 Street, Barcelona 432, Spain, New Building North, 15th Floor"
+	phone = "+101 377 655 22125"
+	mail = "mail@yourcompany.com"
+
+	[params.contact.hour]
+	title = "Business Hours"
+
+		[[params.contact.hour.list]]
+			day = "Weekdays"
+			entry = "9am to 8pm"
+
+		[[params.contact.hour.list]]
+			day = "Saturday"
+			entry = "9am to 22pm"
+
+		[[params.contact.hour.list]]
+			day = "Sunday"
+			entry = "Closed"

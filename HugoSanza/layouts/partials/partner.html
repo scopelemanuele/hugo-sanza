@@ -1,0 +1,23 @@
+<section id="partner" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <h2>{{ with .Site.Params.partner.title }}{{ . }}{{ end }}</h2>
+                    <p>{{ with .Site.Params.partner.description }}{{ . }}{{ end }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="owl-partners owl-carousel">
+                    {{ range .Site.Params.partner.list }}
+                        <div class="item">
+                            <div class="partner-logo"><img src="{{ .image }}" alt="{{ .partner }}"></div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
