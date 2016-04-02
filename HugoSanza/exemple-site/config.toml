@@ -61,6 +61,7 @@ theme = "HugoSanza"
 	    url = "#contact"
 
 [params.about]
+	title = "About"
 	description = "A creative agency based on Candy Land, ready to boost your business with some beautifull templates. MOOZ Agency is one of the best in town see more you will be amazed."
 
 	[[params.about.list]]
