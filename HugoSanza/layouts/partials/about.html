@@ -10,8 +10,9 @@
         </div>
         <div class="row">
             <!-- about module -->
+            {{ $list := . }}
             {{ range .Site.Params.about.list }}
-            <div class="col-md-3 text-center">
+            <div class="col-md-{{ len $list.Site.Params.about.list | div 12 }} text-center">
                 <div class="mz-module-about">
                     <i class="fa {{ .icon }} ot-circle"></i>
                     <h3>{{ .title }}</h3>
@@ -20,6 +21,7 @@
             </div>
             <!-- end about module -->
             {{ end }}
+
         </div>
     </div>
     <!-- /.container -->
