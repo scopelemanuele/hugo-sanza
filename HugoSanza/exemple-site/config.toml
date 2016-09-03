@@ -20,6 +20,10 @@ theme = "HugoSanza"
 	welcome = "Welcome To MOOZ Themes!"
 	slogan = "YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES"
 	button = "Tell Me More"
+	twitter = "#"
+	gplus = "#"
+	linkedin = "#"
+	facebook = "#"
 
 
 [params.navigation]

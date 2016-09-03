@@ -7,6 +7,30 @@
                 <div class="intro-heading">{{ with .Site.Params.header.slogan }}{{ . }}{{ end }}</div>
                 <a href="#about" class="page-scroll btn btn-xl">{{ with .Site.Params.header.button }}{{ . }}{{ end }}</a>
             </div>
+             <div class="intro-social center">
+				<ul class="list-inline intro-social-buttons">
+                    {{ if .Site.Params.header.twitter }}
+					<li>
+						<a href="{{ with .Site.Params.header.twitter }}{{ . }}{{ end }}" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</a>
+					</li>
+                    {{ end }}
+                    {{ if .Site.Params.header.gplus }}
+					<li>
+						<a href="{{ with .Site.Params.header.gplus }}{{ . }}{{ end }}" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</a>
+					</li>
+                    {{ end }}
+                    {{ if .Site.Params.header.linkedin }}
+                    <li>
+						<a href="{{ with .Site.Params.header.linkedin }}{{ . }}{{ end }}" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</a>
+					</li>
+                    {{ end }}
+                    {{ if .Site.Params.header.facebook }}
+                    <li>
+						<a href="{{ with .Site.Params.header.facebook }}{{ . }}{{ end }}" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</a>
+					</li>
+                    {{ end }}
+				</ul>
+			</div>
         </div>
     </div>
 </header>
